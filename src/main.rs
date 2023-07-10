@@ -11,7 +11,6 @@ use yew::prelude::{
 };
 use yew::macros::{html};
 use css_in_rust::Style;
-use wasm_bindgen::prelude::wasm_bindgen;
 
 const COLS: usize = 7;
 const ROWS: usize = 6;
@@ -176,7 +175,6 @@ impl App {
     }
 }
 
-#[wasm_bindgen(start)]
 pub fn main() {
     yew::start_app::<App>();
 }

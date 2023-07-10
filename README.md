@@ -3,10 +3,9 @@ Connect4 written in Rust using yew that runs in a browser using WASM
 
 ## Build
 ### Dependencies
-1. `cargo install wasm-pack`
+1. `rustup target add wasm32-unknown-unknown`
+2. `cargo install --locked trunk`
+3. `cargo install --locked wasm-bindgen-cli`
 
-### Steps
-1. `wasm-pack build --target web`
-
-## Run
-1. `python3 -m http.server 8000`
+## Build & Run
+1. `trunk serve`
