@@ -4,3 +4,6 @@
 /dist
 /src-tauri/.cargo
 /src-tauri/gen
+
+# nix
+/.direnv/
